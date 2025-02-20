@@ -5,6 +5,14 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "Chain Cycle",
+    description:
+      "A blockchain marketplace rewarding sustainable trading. Users earn CYC tokens and green scores for recycling materials. Built on Internet Computer, making environmental responsibility profitable.",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blockchain-recycling.jpg",
+    link: "https://github.com/znafi/Chain-Cycle",
+    tech: "Internet Computer, Motoko, React, TypeScript, Tailwind CSS",
+  },
+  {
     title: "Blood Donation Web App",
     description:
       "A full-stack platform connecting blood donors with those in need. Features real-time donor matching and location-based search.",
@@ -95,4 +103,3 @@ const Projects = () => {
 }
 
 export default Projects
-
