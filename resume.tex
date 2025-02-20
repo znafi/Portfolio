@@ -1,0 +1,104 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{enumitem, hyperref, parskip}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Custom colors
+\definecolor{headerblue}{RGB}{44, 62, 80}
+\definecolor{graytext}{RGB}{96, 96, 96}
+
+% Formatting section titles
+\titleformat{\section}{\large\bfseries\color{headerblue}}{}{0em}{}
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Link formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=headerblue,
+    urlcolor=headerblue
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{\href{https://myportfolioxznafi.vercel.app/}{Zawad Nafi}}} \\
+    \vspace{2mm}
+    \small
+    \href{mailto:znafi@ualberta.ca}{znafi@ualberta.ca} \hspace{3mm} $\vert$ \hspace{3mm}
+    \href{https://www.linkedin.com/in/zawad-nafi-30b25a352/}{LinkedIn} \hspace{3mm} $\vert$ \hspace{3mm}
+    \href{https://github.com/znafi}{GitHub} \hspace{3mm} $\vert$ \hspace{3mm} 825-333-6984\hspace{3mm} $\vert$ \href{https://myportfolioxznafi.vercel.app/}{Portfolio}
+\end{center}
+\vspace{-4mm}
+\hrule \vspace{6pt}
+
+% Education
+\section*{Education}
+\textbf{Bachelor of Science in Computer Science} \hfill \textit{Expected Graduation: 2027} \\
+University of Alberta | Relevant Coursework: Data Structures, Algorithms, Software Engineering
+\vspace{6pt}
+\hrule \vspace{6pt}
+
+% Technical Skills
+\section*{Technical Skills}
+\textbf{Programming Languages:} Python, JavaScript, TypeScript, SQL, C++, Motoko \\
+\textbf{Technologies:} React, Next.js, Flask, Node.js, Express, Prisma, MongoDB, SQLite, Elasticsearch, Internet Computer \\
+\textbf{Tools:} Git, Docker, Postman, VS Code, JIRA, LaTeX \\
+\textbf{Methodologies:} Agile, Scrum, CI/CD, Test-Driven Development (TDD)
+\vspace{6pt}
+\hrule \vspace{6pt}
+
+% Professional Experience
+\section*{Professional Experience}
+
+\textbf{Project Manager, ConnectionHub.ca} \hfill \textit{Summer Internship, May - August 2024}
+\begin{itemize}[leftmargin=*]
+    \item Led project planning and execution, increasing team efficiency by 30\% through Agile methodologies.
+    \item Coordinated cross-functional teams to align with business goals, demonstrating ownership and customer obsession.
+    \item Managed stakeholder communication, risk assessments, and optimized resource allocation by 20\%.
+\end{itemize}
+
+\vspace{6pt}
+\hrule \vspace{6pt}
+
+% Projects
+\section*{Projects}
+
+\textbf{Chain Cycle - Blockchain Marketplace} \hfill \href{https://github.com/znafi/Chain-Cycle}{GitHub} \\
+\textit{Internet Computer, Motoko, React, TypeScript, Tailwind CSS}
+\begin{itemize}[leftmargin=*]
+    \item Developed a decentralized marketplace for sustainable material trading using Internet Computer blockchain.
+    \item Implemented a token-based reward system (CYC tokens) to incentivize sustainable trading practices.
+    \item Built secure user authentication using Internet Identity and created a real-time bidding system.
+    \item Designed modular architecture with separate canisters for user profiles, marketplace listings, and token transactions.
+\end{itemize}
+
+\textbf{Blood Donation Web Application} \hfill \href{https://bloodinneed.org/}{bloodinneed.org} \\
+\textit{React, Material-UI, Node.js, MongoDB}
+\begin{itemize}[leftmargin=*]
+    \item Developed a full-stack platform for blood donors to register and be searchable by blood type.
+    \item Implemented secure authentication using JWT and optimized MongoDB queries for 30\% faster lookups.
+    \item Currently has 50+ active donors, assisting with emergency blood needs in Bangladesh.
+\end{itemize}
+
+\textbf{Assignment Dashboard} \hfill \href{https://github.com/znafi/Assignment-Tracker.git}{GitHub} \\
+\textit{Next.js, Chakra UI, SQLite, Prisma, Vercel}
+\begin{itemize}[leftmargin=*]
+    \item Designed and developed an assignment tracking system with due date and time tracking features.
+    \item Implemented secure JWT-based authentication with HTTP-only cookies.
+    \item Optimized database queries for 50\% improved performance.
+\end{itemize}
+
+\textbf{Global Legal Reference System} \hfill \href{https://github.com/znafi/Lawyer.git}{GitHub} \\
+\textit{Flask, React, SQLAlchemy, Elasticsearch}
+\begin{itemize}[leftmargin=*]
+    \item Created a web application for searching and accessing constitutional laws worldwide.
+    \item Integrated Elasticsearch, enabling instant, keyword-based law lookup.
+    \item Built a scalable API with RESTful principles, improving request handling by 40\%.
+\end{itemize}
+
+\vspace{6pt}
+\hrule \vspace{6pt}
+
+\end{document}

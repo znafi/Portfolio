@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col space-y-2 mb-4 md:mb-0">
-            <p className="text-sm text-gray-400">© {new Date().getFullYear()} Zawad Nafi. All rights reserved.</p>
+            <p className="text-sm text-gray-400"> {new Date().getFullYear()} Zawad Nafi. All rights reserved.</p>
             <div className="flex items-center space-x-2">
               <FiMail className="text-gray-400 w-4 h-4" />
               <a
@@ -33,7 +33,7 @@ const Footer = () => {
               <FiGithub size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/zawadnafi"
+              href="https://www.linkedin.com/in/zawad-nafi-30b25a352/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
@@ -48,4 +48,3 @@ const Footer = () => {
 }
 
 export default Footer
-
