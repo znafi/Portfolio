@@ -33,7 +33,7 @@ const Footer = () => {
               <FiGithub size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/zawad-nafi-30b25a352/"
+              href="https://www.linkedin.com/in/zawadnafi"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
