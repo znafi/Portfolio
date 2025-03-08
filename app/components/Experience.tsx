@@ -4,25 +4,17 @@ import { motion } from "framer-motion"
 
 const experiences = [
   {
-    title: "Project Manager",
+    title: "Software Developer Intern",
     company: "ConnectionHub.ca",
     date: "Summer Internship, May - August 2024",
     description: [
-      "Led project planning and execution, increasing team efficiency by 30% through Agile methodologies.",
-      "Coordinated cross-functional teams to align with business goals, demonstrating ownership and customer obsession.",
-      "Managed stakeholder communication, risk assessments, and optimized resource allocation by 20%.",
+      "Developed and maintained full-stack web applications using React, Node.js, and MongoDB",
+      "Implemented RESTful APIs, optimizing database queries for better performance and scalability",
+      "Collaborated with a cross-functional team to design and deploy new features, improving platform usability",
+      "Enhanced system security by integrating authentication and authorization mechanisms",
     ],
   },
-  {
-    title: "Area Sales Manager",
-    company: "TELUS",
-    date: "February 2024 - Present",
-    description: [
-      "Increased customer acquisition by 40% through data-driven sales strategies.",
-      "Led a team of sales representatives, mentoring them in high-performance sales methodologies.",
-      "Maintained strong customer relationships, earning multiple 5-star client reviews.",
-    ],
-  },
+
 ]
 
 const Experience = () => {
